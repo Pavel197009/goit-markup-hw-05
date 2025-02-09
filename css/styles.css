@@ -562,6 +562,9 @@ address {
 .modal-form {
     padding: 0;
 }
+.modal-input-div {
+    margin-bottom: 8px;
+}
 .modal-label {
     font-size: 12px;
     font-weight: 400;
