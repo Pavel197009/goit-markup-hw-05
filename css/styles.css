@@ -680,6 +680,11 @@ address {
     width: 100%;
     margin-bottom: 24px;
 }
+.label-span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
 .modal-btn {
     min-width: 169px;
     height: 56px;
