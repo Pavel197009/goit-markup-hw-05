@@ -675,6 +675,7 @@ address {
     letter-spacing: 0.04em;
     color: var(--primary-brand-color);
     text-decoration: underline;
+    vertical-align: middle;
 }
 .checkbox-div {
     width: 100%;
