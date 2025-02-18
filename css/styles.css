@@ -644,10 +644,10 @@ address {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--subtle-text-color);
-    display: inline-flex;
+ /*   display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 8px; */
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .check-box {
@@ -661,6 +661,7 @@ address {
     justify-content: center;
     fill: transparent;
     vertical-align: middle;
+    margin-right: 8px;
 }
 .check-input:checked + .checkbox-label .check-box {
     background-color: var(--pressed-state-color);
